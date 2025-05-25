@@ -5,4 +5,4 @@ interset = savings * 12 * 0.05
 ProjectedSavings = savings * 12 + interset
 
 print(f"Your monthly savings are ${savings}.")
-print(f"Projected savings after one year, with interest, is: ${int(ProjectedSavings)}.")
+print(f"Projected savings after one year, with interest, is: ${ProjectedSavings}.")
