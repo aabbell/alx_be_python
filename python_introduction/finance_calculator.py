@@ -1,5 +1,5 @@
-income =  int(input("Enter your monthly income"))
-expenses =  int(input("Enter your total monthly expenses")) 
+income =  int(input("Enter your monthly income:"))
+expenses =  int(input("Enter your total monthly expenses:")) 
 savings =  income - expenses
 interset = savings * 12 * 0.05
 ProjectedSavings = savings * 12 + interset
