@@ -1,4 +1,4 @@
-Task = input("Enter a task: ")
+Task = input("Enter your task: ")
 Priority = input("Enter a priority (high ,medium ,low)")
 TimeBound = input("is it time bounded (yes or no)")
 
