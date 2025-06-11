@@ -20,5 +20,3 @@ def user():
         print("Invalid temperature. Please enter a numeric value.")
 
 user()
-
-
