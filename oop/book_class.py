@@ -1,5 +1,6 @@
 class Book:
-    def __init__(self, title, year):
+    def __init__(self, title,author, year):
+        self.author = author
         self.title = title
         self.year = year
     
@@ -11,5 +12,3 @@ class Book:
     
     def __repr__(self):
         print(f"Book('{self.title}', '{self.author}', {self.year})")
-
-        
